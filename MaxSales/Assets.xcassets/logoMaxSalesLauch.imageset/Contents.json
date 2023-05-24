@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "logo-final-vertical-png.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

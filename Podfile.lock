@@ -1,0 +1,24 @@
+PODS:
+  - InputMask (5.0.0)
+  - SFFontFeatures (1.0.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - InputMask (= 5.0.0)
+  - SFFontFeatures
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - InputMask
+    - SFFontFeatures
+    - SnapKit
+
+SPEC CHECKSUMS:
+  InputMask: 8a10dbc8ac3f94f0a5b4c380424bbe6795c69b16
+  SFFontFeatures: 070f669efd39035022f8c76a6c02da0975c814c2
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 335e3aa0156ca11022a88d9b19648e13b953d7db
+
+COCOAPODS: 1.12.1
