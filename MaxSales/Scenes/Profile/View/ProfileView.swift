@@ -204,6 +204,7 @@ extension ProfileView: UITableViewDataSource {
 }
 
 // MARK: - DEVELOPER PREVIEW -
+#if DEBUG
 struct ProfileView_Preview: PreviewProvider {
     static var previews: some View {
         UIViewPreview {
@@ -212,3 +213,4 @@ struct ProfileView_Preview: PreviewProvider {
         }
     }
 }
+#endif

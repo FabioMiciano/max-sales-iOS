@@ -97,6 +97,7 @@ extension AboutViewController: ViewConfiguration {
     }
 }
 
+#if DEBUG
 struct AboutViewController_Preview: PreviewProvider {
     static var previews: some View {
         UIViewControllerPreview {
@@ -106,3 +107,4 @@ struct AboutViewController_Preview: PreviewProvider {
         }
     }
 }
+#endif

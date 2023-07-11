@@ -97,6 +97,7 @@ private extension CardView {
 }
 
 // MARK: - DEVELOPER PREVIEW -
+#if DEBUG
 struct CardView_Preview: PreviewProvider {
     static var previews: some View {
         UIViewPreview {
@@ -105,3 +106,4 @@ struct CardView_Preview: PreviewProvider {
         }
     }
 }
+#endif

@@ -80,6 +80,7 @@ extension ContatcsViewController: ViewConfiguration {
     }
 }
 
+#if DEBUG
 struct ContactsViewController_Preview: PreviewProvider {
     static var previews: some View {
         UIViewControllerPreview {
@@ -90,3 +91,4 @@ struct ContactsViewController_Preview: PreviewProvider {
         }
     }
 }
+#endif
