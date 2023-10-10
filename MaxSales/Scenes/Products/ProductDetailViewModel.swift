@@ -16,6 +16,7 @@ protocol ProductDetailViewModeling {
     var delegate: ProductDetailViewModelDelegate? { get set }
     func loadProducts(idCategory: String)
     func loadBackgroudColor(by category: String) -> UIColor
+    func canOpenAppStore(title: String, path: String) -> Bool
 }
 
 final class ProductDetailViewModel: ProductDetailViewModeling {
@@ -57,6 +58,12 @@ final class ProductDetailViewModel: ProductDetailViewModeling {
         default:
             return UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 1.00)
         }
+    }
+    
+    func canOpenAppStore(title: String, path: String) -> Bool {
+        guard let url = URL(string: path), title == "EPHARMA" else { return false }
+        UIApplication.shared.open(url)
+        return true
     }
 }
 

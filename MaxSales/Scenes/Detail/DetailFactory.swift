@@ -22,6 +22,7 @@ enum DetailFactory: String {
     case funeral
     case morteAcidental
     case pet
+    case medicamentoGratis
     
     func make() -> UIViewController {
         switch self {
@@ -167,6 +168,17 @@ enum DetailFactory: String {
                 phoneLabel: NSLocalizedString("outrasLocalidades", comment: ""),
                 phoneContent: "0800 709 8059"
             )
+            return DetailViewController(model: model)
+        case .medicamentoGratis:
+            let model = DetailBinding(
+                title: "Assistência Medicamentos Genéricos Gratuitos",
+                image: "sabemi",
+                text:  NSLocalizedString("medicamentoGratuito", comment: ""),
+                whatsappLabel: "",
+                whastappContent: "",
+                phoneLabel: NSLocalizedString("outrasLocalidades", comment: ""),
+                phoneContent: "0800 721 3874")
+            
             return DetailViewController(model: model)
         }
     }

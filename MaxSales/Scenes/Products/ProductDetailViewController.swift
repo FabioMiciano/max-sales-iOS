@@ -69,6 +69,7 @@ extension ProductDetailViewController: ProductDetailViewDelegate {
     }
     
     func selectedController(name: String) {
+//        let factory = DetailFactory.medicamentoGratis
         guard let factory = DetailFactory(rawValue: name) else { return }
         let controller = factory.make()
         navigationController?.pushViewController(controller, animated: true)
@@ -80,10 +81,12 @@ extension ProductDetailViewController: ProductDetailViewDelegate {
     }
     
     func selectedWebView(title: String, path: String) {
-        let controller = WebViewController()
-        controller.setup(title: title, path: path)
-        controller.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(controller, animated: true)
+        if !viewModel.canOpenAppStore(title: title, path: path) {
+            let controller = WebViewController()
+            controller.setup(title: title, path: path)
+            controller.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(controller, animated: true)
+        }
     }
 }
 

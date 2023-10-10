@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CA82F06B-BF75-49BC-882A-4267DF18F327"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BEA00ED-D000-4BCF-952F-00FDE26FE88C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxSales/Scenes/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "session()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BEA00ED-D000-4BCF-952F-00FDE26FE88C - a64d460cba3d0928"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxSales.LoginViewModel.session() -&gt; ()"
+                  moduleName = "MaxSales"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fabio.miciano/Desktop/Developer/study/max-sales-iOS/MaxSales/MaxSales/Scenes/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0BEA00ED-D000-4BCF-952F-00FDE26FE88C - b39caac115e9d9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, MaxSales.Errors&gt;) -&gt; () in MaxSales.LoginViewModel.session() -&gt; ()"
+                  moduleName = "MaxSales"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fabio.miciano/Desktop/Developer/study/max-sales-iOS/MaxSales/MaxSales/Scenes/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2828C3BF-6860-47BE-8666-69C771E6EB40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxSales/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "createSession(session:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B451297B-F14E-4564-8380-FBA960076476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxSales/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "registerAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B451297B-F14E-4564-8380-FBA960076476 - 6c19750d48f988eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxSales.LoginViewController.registerAction() -&gt; ()"
+                  moduleName = "MaxSales"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fabio.miciano/Desktop/Developer/study/max-sales-iOS/MaxSales/MaxSales/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "B451297B-F14E-4564-8380-FBA960076476 - 6c19750d48f988eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MaxSales.LoginViewController.registerAction() -&gt; ()"
+                  moduleName = "MaxSales"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fabio.miciano/Desktop/Developer/study/max-sales-iOS/MaxSales/MaxSales/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA9A561E-F1F6-44D2-82DC-D5F12348386F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MaxSales/Server/Middleware/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "header"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

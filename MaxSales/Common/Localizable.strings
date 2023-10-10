@@ -7,54 +7,136 @@
 
 "capitais" = "Capitais e Cidades Metropolitanas";
 "outrasLocalidades" = "Demais Localidades";
-"consultaText" = "Consultas e exames com até 70% de economia.
-São mais de 1.800 locais de atendimento com profissionais excelentes, prontos para te atender e auxiliar no que for preciso.
+"consultaText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+<div><p>Consultas e exames com até 70% de economia.</p></div>
+<div><p>São mais de 1.800 locais de atendimento com profissionais excelentes, prontos para te atender e auxiliar no que for preciso.</p></div>
 
-✅ Clínico Geral
-✅ Ginecologista
-✅ Pediatra
-✅ Geriatra
-✅ Ortopedista";
+<div><p>✅ Clínico Geral</p></div>
+<div><p>✅ Ginecologista</p></div>
+<div><p>✅ Pediatra</p></div>
+<div><p>✅ Geriatra</p></div>
+<div><p>✅ Ortopedista</p></div>
+</body>";
 
-"examesText" = "Exames laboratoriais e exames de imagem:
+"examesText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+<div><p>Exames laboratoriais e exames de imagem:</p></div>
 
-✅ Ultrassonografia
-✅ Tomografia
-✅ Radiologia
+<div>
+<p>✅ Ultrassonografia</p>
+<p>✅ Tomografia</p>
+<p>✅ Radiologia</p>
+</div>
 
-e muitas outras especialidades entre em contato e agende sua consulta com até 70% de economia.";
+e muitas outras especialidades entre em contato e agende sua consulta com até 70% de economia.
+</body>";
 
-"dentistaText" = "Serviços Odontológicos com até 70% de economia.
-Temos parcerias com os melhores Dentistas do Brasil, com preços populares e uma qualidade que você merece.
+"dentistaText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+<div>Serviços Odontológicos com até 70% de economia.
+<p>Temos parcerias com os melhores Dentistas do Brasil, com preços populares e uma qualidade que você merece.</p></div>
 
-✅ Avaliação – Consulta
-✅ Ortodontia
-✅ Odontologia pediátrica
-✅ Remoção dos Dentes do Siso
-✅ Profilaxia
-✅ Clareamento Dental
-✅ Harmonização Facial
+<div>
+<p>✅ Avaliação – Consulta</p>
+<p>✅ Ortodontia</p>
+<p>✅ Odontologia pediátrica</p>
+<p>✅ Remoção dos Dentes do Siso</p>
+<p>✅ Profilaxia</p>
+<p>✅ Clareamento Dental</p>
+<p>✅ Harmonização Facial</p>
+</div>
 
-Agende sua consulta odontológica conosco através do 0800 ou Whatsapp:";
+Agende sua consulta odontológica conosco através do 0800 ou Whatsapp:
+</body>";
 
-"assistenciaPersonalText" = "Programa com sugestões de atividades físicas que respeita a individualidade, direcionando para os objetivos do Segurado, conforme idade, sexo, bem como sua disponibilidade. O trabalho poderá ser complementado e obterá melhores resultados, se for desenvolvido com a parceria da Assistência Nutricional. O Segurado deverá entrar em contato com a Central de Atendimento formalizando sua solicitação, sendo que o retorno será em até 72h (setenta e duas horas). Todas as informações sobre atividades físicas são por telefone, lembrando que, é importante o Segurado procurar um clínico geral e seguir suas recomendações antes de iniciar suas atividades físicas, para garantir que sua saúde não apresentará nenhum problema com o novo ritmo de vida.";
+"assistenciaPersonalText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Programa com sugestões de atividades físicas que respeita a individualidade, direcionando para os objetivos do Segurado, conforme idade, sexo, bem como sua disponibilidade. O trabalho poderá ser complementado e obterá melhores resultados, se for desenvolvido com a parceria da Assistência Nutricional. O Segurado deverá entrar em contato com a Central de Atendimento formalizando sua solicitação, sendo que o retorno será em até 72h (setenta e duas horas). Todas as informações sobre atividades físicas são por telefone, lembrando que, é importante o Segurado procurar um clínico geral e seguir suas recomendações antes de iniciar suas atividades físicas, para garantir que sua saúde não apresentará nenhum problema com o novo ritmo de vida.
+</body>";
 
-"assistenciaNutricionalText" = "O serviço de Assistência Nutricional disponibiliza ao Segurado informações, via telefone com profissional qualificado, sobre alimentação e nutrição de forma simples e objetiva. A cada contato, o Segurado receberá dicas e comentários motivando-o a utilizar o programa de forma contínua e a alcançar seus objetivos.";
+"assistenciaNutricionalText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+O serviço de Assistência Nutricional disponibiliza ao Segurado informações, via telefone com profissional qualificado, sobre alimentação e nutrição de forma simples e objetiva. A cada contato, o Segurado receberá dicas e comentários motivando-o a utilizar o programa de forma contínua e a alcançar seus objetivos.
+</body>";
 
 
-"checkupText" = "Neste serviço podemos disponibilizar um check-up anual totalmente gratuito para nossos beneficiários e diversos exames laboratoriais.";
+"checkupText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Neste serviço podemos disponibilizar um check-up anual totalmente gratuito para nossos beneficiários e diversos exames laboratoriais.
+</body>
+";
 
-"sorteioText" = "Com a Max Seguros você concorrerá a um Sorteio pela Loteria Federal, você terá direito de participar de um sorteio por mês, concorrendo a R$ 20 mil pela Loteria Federal (apenas para o titular).";
+"sorteioText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Com a Max Seguros você concorrerá a um Sorteio pela Loteria Federal, você terá direito de participar de um sorteio por mês, concorrendo a R$ 20 mil pela Loteria Federal (apenas para o titular).
+</br>";
 
-"autoMotoText" = "Nessa assistência você tem direito a auto socorro após pane, troca de pneus, recolha de seu veículo após pane ou evento previsto. Veículos de até 15 anos de fabricação cobertos para seguradora e até 200KM para guinchos e reboques";
+"autoMotoText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Nessa assistência você tem direito a auto socorro após pane, troca de pneus, recolha de seu veículo após pane ou evento previsto. Veículos de até 15 anos de fabricação cobertos para seguradora e até 200KM para guinchos e reboques
+</body>";
 
-"residencialText" = "A fechadura da sua porta quebrou com a chave dentro? Calma, não precisa se preocupar, com esta assistência você pode contar com os melhores profissionais para te ajudar com problemas residenciais como: chaveiro, problemas hidráulicos, problemas elétricos e quebra de vidro.";
+"residencialText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+A fechadura da sua porta quebrou com a chave dentro? Calma, não precisa se preocupar, com esta assistência você pode contar com os melhores profissionais para te ajudar com problemas residenciais como: chaveiro, problemas hidráulicos, problemas elétricos e quebra de vidro.
+</body>";
 
-"inspecaoText" = "A Assistência Inspeção Domiciliar é um serviço de mão de obra especializada para realizar inspeção domiciliar preventiva e manutenção em alguns itens da sua casa. Se for preciso e possível, a equipe realiza pequenos reparos, revisões ou instalações.";
+"inspecaoText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+A Assistência Inspeção Domiciliar é um serviço de mão de obra especializada para realizar inspeção domiciliar preventiva e manutenção em alguns itens da sua casa. Se for preciso e possível, a equipe realiza pequenos reparos, revisões ou instalações.
+</body>";
 
-"funeralText" = "Com a Assistência Funeral, a Previsul faz tudo pra realizar um funeral dentro dos padrões que você escolher na contratação. A família entra em contato com a central de atendimento e a assistência se encarrega de acionar uma funerária e acompanhar todo o serviço. Este serviço tem extensão em todo o território brasileiro, com cobertura de até R$ 5 mil reais.";
+"funeralText" = "<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Com a Assistência Funeral, a Previsul faz tudo pra realizar um funeral dentro dos padrões que você escolher na contratação. A família entra em contato com a central de atendimento e a assistência se encarrega de acionar uma funerária e acompanhar todo o serviço. Este serviço tem extensão em todo o território brasileiro, com cobertura de até R$ 5 mil reais.
+</body>";
 
-"morteAcidentalText" = "é a garantia do pagamento do Capital Segurado ao(s) beneficiário(s), em caso de morte do Segurado ocasionada pelo evento, sendo um capital de até 10Mil para o titular e de até 5Mil para o cônjuge
-acidente pessoal, ocorrido durante a vigência do Seguro.";
+"morteAcidentalText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+é a garantia do pagamento do Capital Segurado ao(s) beneficiário(s), em caso de morte do Segurado ocasionada pelo evento, sendo um capital de até 10Mil para o titular e de até 5Mil para o cônjuge
+acidente pessoal, ocorrido durante a vigência do Seguro.</body>";
 
-"assistenciaPetText" = "Tratamento VIP para seu animalzinho, com esta assistência seu Pet terá um tratamento exclusivo, com direito a transporte emergencial, assistência emergencial, consultas, envio de ração e muito mais.";
+"assistenciaPetText" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+Tratamento VIP para seu animalzinho, com esta assistência seu Pet terá um tratamento exclusivo, com direito a transporte emergencial, assistência emergencial, consultas, envio de ração e muito mais.
+</body>";
+
+"medicamentoGratuito" = "
+<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+<div>
+    <b>Condições Gerais:</b>
+    <p>Horário de Atendimento: De segunda a sexta-feira, das 8h às 18h, exceto feriados.</p>
+</div>
+
+<div>
+    <p><b>Âmbito Territorial:</b> Abrangência nacional.</p>
+<div/>
+
+<div>
+    <p><b>Eventos Cobertos:</b> Subsídio de medicamentos genéricos, desde que com prescrição médica em nome do segurado com carimbo do médico com CRM e CID, e desde que mantido o pagamento do seguro em dia.</p>
+</div>
+
+<div>
+    <p><b>Limite de Utilizações:</b> 01 (uma) utilização do serviço por mês e limitado a 06 (seis) vezes por ano de vigência do seguro.</p>
+</div>
+
+<div>
+    <p><b>Limite Mensal:</b> Até R$ 150,00 (Cento e Cinquenta Reais).</p>
+</div>
+
+<div>
+    <p><b>Carência:</b> Para início da utilização deste serviço haverá uma carência de 3 (três) meses, contados a partir da data de início de vigência do seguro, ou seja, durante este período o segurado não tem direito a utilização dos serviços.</p>
+</div>
+
+<div>
+    <p><b>Segurado:</b> Entende-se por Segurado, a pessoa física residente no Brasil, titular que tenha contratado o seguro.</p>
+</div>
+
+<div>
+    <p><b>Evento:</b> É a necessidade de compra de medicamentos.</p>
+</div>
+
+<div>
+    <p><b>Assistência:</b> É o serviço que será prestado obedecendo-se as condições gerais deste regulamento.</p>
+</div>
+</body>";

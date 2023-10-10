@@ -11,6 +11,11 @@ import UIKit
 final class DetailViewController: UIViewController {
     private let model: DetailBinding
     
+    private lazy var containerView: UIView = {
+        let view = UIView()
+        return view
+    }()
+    
     private lazy var logoView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
@@ -66,6 +71,12 @@ final class DetailViewController: UIViewController {
         return view
     }()
     
+    private lazy var scrollView: UIScrollView = {
+        let scroll = UIScrollView()
+        scroll.addSubview(containerView)
+        return scroll
+    }()
+    
     init(model: DetailBinding) {
         self.model = model
         super.init(nibName: nil, bundle: nil)
@@ -90,7 +101,14 @@ extension DetailViewController {
     func setup() {
         title = model.title
         
-        textLabel.text = model.text
+        let text = model.text
+        guard
+            let data = text.data(using: .unicode, allowLossyConversion: true),
+            let attribute = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
+        else { return }
+        textLabel.attributedText = attribute
+        
+//        textLabel.text = model.text
         whatsappLabel.text = model.whatsappLabel
         whatsappButton.setTitle(model.whastappContent, for: .normal)
         phoneLabel.text = model.phoneLabel
@@ -128,15 +146,27 @@ private extension DetailViewController {
 
 extension DetailViewController: ViewConfiguration {
     func createHyerarchy() {
-        view.addSubview(logoView)
-        view.addSubview(textLabel)
-        view.addSubview(whatsappContent)
-        view.addSubview(phoneContent)
+        view.addSubview(scrollView)
+        
+        containerView.addSubview(logoView)
+        containerView.addSubview(textLabel)
+        containerView.addSubview(whatsappContent)
+        containerView.addSubview(phoneContent)
     }
     
     func setupConstraints() {
+        scrollView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
+        
+        containerView.snp.makeConstraints {
+            $0.edges.equalTo(scrollView.snp.edges)
+            $0.width.equalTo(view.snp.width)
+            $0.height.greaterThanOrEqualTo(scrollView.snp.height)
+        }
+        
         logoView.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(Spacing.base10)
+            $0.top.equalToSuperview().offset(Spacing.base01)
             $0.leading.trailing.equalToSuperview().inset(Spacing.base01)
             $0.height.equalTo(model.image == nil ? 0 : 180)
         }
@@ -148,7 +178,7 @@ extension DetailViewController: ViewConfiguration {
         }
         
         whatsappContent.snp.makeConstraints {
-            $0.top.equalTo(textLabel.snp.bottom).offset(Spacing.base04)
+            $0.top.equalTo(textLabel.snp.bottom).offset(Spacing.base02)
             $0.leading.trailing.equalToSuperview().inset(Spacing.base01)
             $0.height.equalTo(Sizing.base05)
         }
