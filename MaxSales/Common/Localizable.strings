@@ -140,3 +140,18 @@ Tratamento VIP para seu animalzinho, com esta assistência seu Pet terá um trat
     <p><b>Assistência:</b> É o serviço que será prestado obedecendo-se as condições gerais deste regulamento.</p>
 </div>
 </body>";
+
+"telaQuebrada" =
+"<body style='font-size: 16px; font-family: -apple-system, sans-serif'>
+<div>
+<p>Para acionar sua assistência acesse sua conta através do site <a href='www.pitzi.com.br/conta'>www.pitzi.com.br/conta</a></p>
+<p><b>Serviço de Assistência:</b> Este serviço garante o reparo da tela do seu celular decorrente de quebra acidental e não intencional que cause dano físico SOMENTE na tela do aparelho (touchscreen e LCD) do Segurado com apólice de seguro vigente na data da quebra.</p>
+<p>Para ativação do plano de proteção, o segurado deve cadastrar e ativar o smartphone no link: <a href='https://pitzi.com.br/sabemi/client_orders/new'>https://pitzi.com.br/sabemi/client_orders/new</a></p>
+<p><b>Vigência:</b> A duração da garantia desse serviço de assistência fica limitada à vigência da apólice
+de seguro comercializada pela Sabemi.</p>
+<p><b>Abrangência:</b> Em todo o território brasileiro.</p>
+<p><b>Limite de utilização do serviço:</b> Este serviço estará disponível para somente 01 (uma)
+utilização por ano de vigência do seguro.</p>
+<p><b>Franquia:</b>É a taxa de R$350,00 (trezentos e cinquenta reais) cobrada do segurado para que este tenha direito a prestação do serviço quando solicitado</p>
+</div>
+</body>";

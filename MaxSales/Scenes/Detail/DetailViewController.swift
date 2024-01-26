@@ -107,6 +107,7 @@ extension DetailViewController {
             let attribute = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
         else { return }
         textLabel.attributedText = attribute
+        textLabel.numberOfLines = 0
         
 //        textLabel.text = model.text
         whatsappLabel.text = model.whatsappLabel
@@ -162,7 +163,7 @@ extension DetailViewController: ViewConfiguration {
         containerView.snp.makeConstraints {
             $0.edges.equalTo(scrollView.snp.edges)
             $0.width.equalTo(view.snp.width)
-            $0.height.greaterThanOrEqualTo(scrollView.snp.height)
+            $0.height.greaterThanOrEqualTo(1000)
         }
         
         logoView.snp.makeConstraints {
