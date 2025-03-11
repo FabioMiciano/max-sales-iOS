@@ -69,8 +69,7 @@ extension ProductDetailViewController: ProductDetailViewDelegate {
     }
     
     func selectedController(name: String) {
-        let factory = DetailFactory.telaQuebrada
-//        guard let factory = DetailFactory(rawValue: name) else { return }
+        guard let factory = DetailFactory(rawValue: name) else { return }
         let controller = factory.make()
         navigationController?.pushViewController(controller, animated: true)
     }

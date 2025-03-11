@@ -26,7 +26,24 @@ final class AboutViewController: UIViewController {
     
     private lazy var aboutUsContentLabel: UILabel = {
         let label = UILabel()
-        label.text = "Nós somos a Max Sales, um aplicativo que atua na área de descontos e benefícios, oferecendo praticidade e acessibilidade na palma da sua mão!\nVisamos atender variados públicos que não possuem acesso a uma qualidade excepcional de vida, promovendo acessibilidade à saúde, educação, cultura e segurança com mais facilidade através do nosso aplicativo de benefícios.\nNosso aplicativo visa abranger todas as necessidades do nosso cliente em um só lugar! Otimizando o seu tempo, oferecendo rapidez e economia sem sair de casa.\n \nDentre nosso aplicativo possuímos as seguintes categorias:\n Max Educacional, Max Saúde, Max Fitness, Max Seguros, Max Pet, Max Turismo\n \nAs categorias acima contam com descontos para cada especialidade para assim atender todas as carências de nossos usuários.\nNossa Matriz está localizada no centro de São Paulo, SP. na rua Libero Badaró, no bairro do Anhangabaú, local onde nossa equipe realiza toda a gestão e metodologia da nossa empresa."
+        label.text = "Somos uma empresa inovadora em serviços e benefícios.\n Acreditamos que podemos oferecer serviços de qualidade e com economia."
+        label.textAlignment = .center
+        label.numberOfLines = 40
+        label.textColor = UIColor(red: 0.30, green: 0.30, blue: 0.30, alpha: 1.00)
+        return label
+    }()
+    
+    private lazy var aboutPlansTitleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "PLANOS SOB MEDIDA"
+        label.textAlignment = .center
+        label.font = .boldSystemFont(ofSize: 16)
+        return label
+    }()
+    
+    private lazy var aboutPlansContentLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Criamos 6 planos sob medida para você e sua família.\nMas se preferir podemos personalizar os serviços conforme suas necessidades.\nVisamos atender variados públicos que não possuem acesso a uma qualidade excepcional de vida promovendo acessibilidade à saúde, educação, cultura e segurança com mais facilidade através do nosso aplicativo de benefícios.\nOtimizando o seu tempo, oferecendo rapidez e economia sem sair de casa"
         label.textAlignment = .center
         label.numberOfLines = 40
         label.textColor = UIColor(red: 0.30, green: 0.30, blue: 0.30, alpha: 1.00)
@@ -71,6 +88,8 @@ extension AboutViewController: ViewConfiguration {
         scrollView.addSubview(contentView)
         contentView.addSubview(logoImage)
         contentView.addSubview(aboutUsContentLabel)
+        contentView.addSubview(aboutPlansTitleLabel)
+        contentView.addSubview(aboutPlansContentLabel)
     }
     
     func setupConstraints() {
@@ -93,6 +112,16 @@ extension AboutViewController: ViewConfiguration {
         aboutUsContentLabel.snp.makeConstraints {
             $0.top.equalTo(logoImage.snp.bottom)
             $0.leading.trailing.equalToSuperview().inset(Spacing.base01)
+        }
+        
+        aboutPlansTitleLabel.snp.makeConstraints {
+            $0.top.equalTo(aboutUsContentLabel.snp.bottom).offset(Spacing.base04)
+            $0.leading.trailing.equalToSuperview().inset(Spacing.base01)
+        }
+        
+        aboutPlansContentLabel.snp.makeConstraints {
+            $0.top.equalTo(aboutPlansTitleLabel.snp.bottom).offset(Spacing.base02)
+            $0.leading.trailing.equalToSuperview().inset(Spacing.base02)
         }
     }
 }

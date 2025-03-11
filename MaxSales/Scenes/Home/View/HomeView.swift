@@ -21,7 +21,7 @@ protocol HomeViewDelegate: AnyObject {
 extension HomeView.Layout {
     enum Size {
         static let logoCellHeight: CGFloat = 100
-        static let helpCellHeight: CGFloat = 100
+        static let helpCellHeight: CGFloat = 130
         static let productCellHeight: CGFloat = 80
         static let collectionSectionInsets = UIEdgeInsets(top: 8, left: 4, bottom: 0, right: 4)
     }
@@ -134,7 +134,7 @@ extension HomeView: UICollectionViewDelegateFlowLayout {
         case .logo:
             height = Layout.Size.logoCellHeight
         case .help:
-            width = (width/3) - Spacing.base01
+            width = (width/2) - Spacing.base01
             height = Layout.Size.helpCellHeight
         case .product:
             height = Layout.Size.productCellHeight
